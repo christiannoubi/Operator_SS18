@@ -49,17 +49,17 @@ int main () {
         A a("a"), b("b",1), c ("c",2);
         a.log(); b.log(); c.log();      //  a:0 b:1 c:2
 
-        a = b = c;
-        a.log(); b.log(), c.log();      //  b=c a=b   a:2 b:2 c:2
+        a = b = c;                      //  b=c a=b
+        a.log(); b.log(), c.log();      // a:2 b:2 c:2
 
-        a = 4; b = 5; c = 6;
-        a << b << c;
+        a = 4; b = 5; c = 6;            // a=4 b=5 c=6
+        a << b << c;                    // a=b, a=c // lire ab links
         a.log(); b.log(); c.log();      // a=4 b=5 c=6 a=b, a=c, a:6, b:5, c:6
 
-        a = 7; b = 8; c = 9;
-        a >> b >> c ;                   // lire ab links a=b a=c
-        a.log(); b.log(); c.log();     // a=4 b=5 c=6
-}                                        // a:4 b:8 c:9
+        a = 7; b = 8; c = 9;           // a=7 b=8 c=8
+        a >> b >> c ;                  // lire ab links a=b a=c
+        a.log(); b.log(); c.log();     // a:9 b:8 c:9
+}                                      // a:9 b:8 c:9
 
 /*a:0
 b:1
