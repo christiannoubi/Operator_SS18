@@ -1,3 +1,0 @@
-/Users/christiannoubi/Desktop/Forschung/CLionProjects/OPR_SS18_Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/christiannoubi/Desktop/Forschung/CLionProjects/OPR_SS18_Test/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/christiannoubi/Desktop/Forschung/CLionProjects/OPR_SS18_Test/cmake-build-debug/CMakeFiles/OPR_SS18_Test.dir
